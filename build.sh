@@ -6,7 +6,7 @@ mkdir -p "$CODE_PATH/build"
 pushd "$CODE_PATH/build"
 
 clang -O2 -g -std=c99 -Wall -fdiagnostics-absolute-paths \
-    -o test_steve \
-    ../test_steve.c
+    -o test_lib \
+    ../test_lib.c
 
 popd
